@@ -1,0 +1,145 @@
+*{
+    margin:0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header_right{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    float: right;
+    
+    
+
+}
+a{
+    margin: 0 10px;
+}
+.header a{
+    color: black;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.apps{
+    margin-right: 5%;
+}
+
+.mainbody{
+    flex:1;
+    display: flex;  
+    margin-top: 10%;
+    flex-direction: column;
+}
+.mainbody img{
+    object-fit: contain;
+    padding-bottom: 0;
+    height: 20%;
+}
+.search_input{
+   display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px; 
+    max-width: 560px;
+}
+.search_input input{
+    border: none;
+    outline: none;
+    flex: 1;
+padding: 10px 40px;
+}
+.search_buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.search2{
+    margin-left: 10px;
+   
+}
+.input{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.input p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.input2
+{
+   
+    display: flex;
+    color: blue;
+ 
+}
+.input2 p{
+    padding-left: 10px;
+    font-size: px;
+}
+.footer1{
+    background-color: #F3F4F6;
+   height:  25px;
+}
+.footer2{
+    background-color: #F3F4F6;
+    display: flex;
+    margin-top: 5px;
+    height: 25px;
+    
+}
+
+.footer_left{
+    display: flex;
+   
+}
+.footer_right{
+    display: flex;
+    padding-left: 1010px;
+    
+    
+    
+}
+.footer_right p{
+    margin-inline-start: 10px;
+}
+.footer_left p{
+    margin-inline-start: 10px;
+}
+.footer1 p{
+    margin-inline-start: 10px;
+}
+.footer1 p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.footer2 p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header_right p{
+    margin-inline-end: 10px;
+    
+}
+.header_right p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.material-icons mic1{
+    margin-inline-end: 20px;
+}
+
+
